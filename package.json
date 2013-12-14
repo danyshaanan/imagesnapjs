@@ -1,0 +1,35 @@
+{
+  "name": "imagesnapjs",
+  "version": "0.0.2",
+  "description": "An npm/nodejs wrapper for imagesnap",
+  "keywords": ["imagesnap", "webcam", "image", "photo", "iSight", "capture", "imagesnapjs"],
+  "homepage": "https://github.com/danyshaanan/imagesnapjs",
+  "author": {
+    "name": "Dany Shaanan",
+    "email": "danyshaanan@gmail.com",
+    "url": "http://danyshaanan.com/"
+  },
+  "contributors": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/danyshaanan/imagesnapjs/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danyshaanan/imagesnapjs.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/danyshaanan/imagesnapjs",
+    "email" : "danyshaanan@gmail.com"
+  },
+  "main": "./lib/imagesnapjs.js",
+  "scripts": {
+  },
+  "bin": {
+      "imagesnap" : "./bin/imagesnap"
+  },
+  "dependencies": {
+  }
+}

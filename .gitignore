@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.DS_Store
+*.[bB][mM][pP]
+*.[gG][iI][fF]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[tT][iI][fF][fF]
+*.[pP][nN][gG]
