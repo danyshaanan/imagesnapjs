@@ -35,11 +35,12 @@ imagesnapjs.shoot('/Users/dany/image.jpg', function(err) {
 
 * * *
 ### Notes
-* Using [imagesnap](http://www.iharder.net/current/macosx/imagesnap/) v0.2.5
+* Using imageSnap v0.2.5
 
 * * *
 ### Feedback
 * If you enjoyed this tool, please star it on Github!
 * I'd love to get any feedback you might have, to my email address, which is my username at gmail dot com, or through Github if it's about the technicalities.
 * More material appreciation is welcome in the form of bitcoins. My address can be found on [this page](http://danyshaanan.com/bitcoin).
+* You can support and provide feedback for imageSnap itself [here](http://www.iharder.net/current/macosx/imagesnap/).
 
