@@ -42,5 +42,5 @@ imagesnapjs.shoot('/Users/dany/image.jpg', function(err) {
 * If you enjoyed this tool, please star it on Github!
 * I'd love to get any feedback you might have, to my email address, which is my username at gmail dot com, or through Github if it's about the technicalities.
 * More material appreciation is welcome in the form of bitcoins. My address can be found on [this page](http://danyshaanan.com/bitcoin).
-* You can support and provide feedback for imageSnap itself [here](http://www.iharder.net/current/macosx/imagesnap/).
+* Support and provide feedback for imageSnap itself from [imageSnap's page](http://www.iharder.net/current/macosx/imagesnap/).
 
