@@ -26,7 +26,7 @@ Or require it from your `package.json`
 ```
 var imagesnapjs = require('imagesnapjs');
 
-imagesnapjs.shoot('/Users/dany/image.jpg', function(err) {
+imagesnapjs.capture('/Users/dany/image.jpg', function(err) {
   console.log(err ? err : 'Success!');
 });
 ```
