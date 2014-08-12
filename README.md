@@ -38,3 +38,9 @@ imagesnapjs.capture('/Users/dany/image.jpg', function(err) {
 * this is OSX specific! execution of the binary will fail on other systems.
 * Using imageSnap v0.2.5
 
+* * *
+### Feedback
+* If you enjoyed this package, please star it [on Github](https://github.com/danyshaanan/imagesnapjs).
+* You are invited to [Open an issue on Github](https://github.com/danyshaanan/imagesnapjs/issues).
+* For other matters, my email address can be found on my [NpmJS page](https://www.npmjs.org/~danyshaanan), my [Github page](https://github.com/danyshaanan), or my [website](http://danyshaanan.com/).
+* Provide feedback or support for imageSnap itself from [imageSnap's page](http://www.iharder.net/current/macosx/imagesnap/).
