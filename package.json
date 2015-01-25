@@ -27,6 +27,7 @@
   },
   "main": "./lib/imagesnapjs.js",
   "scripts": {
+    "test": "grunt"
   },
   "bin": {
       "imagesnap" : "./bin/imagesnap"
