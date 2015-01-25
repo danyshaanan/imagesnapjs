@@ -1,4 +1,9 @@
 # imagesnapjs
+
+[![Build Status](https://travis-ci.org/danyshaanan/imagesnapjs.png)](https://travis-ci.org/danyshaanan/imagesnapjs)
+[![NPM Version](https://img.shields.io/npm/v/imagesnapjs.svg?style=flat)](https://npmjs.org/package/imagesnapjs)
+[![License](http://img.shields.io/npm/l/imagesnapjs.svg?style=flat)](LICENSE)
+
 ## An npm/nodejs wrapper for imagesnap
 [imagesnap](https://github.com/rharder/imagesnap) is an OSX tool for capturing webcam photos from the command line,
 written by [Robert Harder](https://github.com/rharder). (Thanks!)
