@@ -26,7 +26,7 @@
     "url" : "https://github.com/danyshaanan/imagesnapjs",
     "email" : "danyshaanan@gmail.com"
   },
-  "main": "./lib/imagesnapjs.js",
+  "main": "./imagesnapjs.js",
   "scripts": {
     "test": "grunt"
   },

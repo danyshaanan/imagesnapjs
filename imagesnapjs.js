@@ -3,7 +3,7 @@
 var fs = require('fs')
 var exec = require('child_process').exec
 
-var bin = __dirname + '/../bin/imagesnap '
+var bin = __dirname + '/bin/imagesnap '
 
 module.exports = {
   capture: capture
