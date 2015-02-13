@@ -36,6 +36,19 @@ imagesnapjs.capture('/Users/dany/image.jpg', function(err) {
 });
 ```
 
+#####Usage with an optional paramameters
+```
+var imagesnapjs = require('imagesnapjs');
+
+imagesnapjs.capture('/Users/dany/image.jpg','-w 2 ', function(err) {
+  console.log(err ? err : 'Success!');
+});
+
+only tested with -w option that enable a warm up before taking a picture.
+
+```
+
+
 (To be further developed).
 
 * * *
