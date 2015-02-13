@@ -15,7 +15,28 @@ module.exports = {
 // return correct err objects
 // wrap exec
 
-function capture(imagePath, callback) {
+function capture(imagePath,params, callback) {
+    // retrieve arguments as array
+    var args = [];
+    for (var i = 0; i < arguments.length; i++) {
+        args.push(arguments[i]);
+    }
+ 
+    // first argument is the imagePath
+    // shift() removes the first item from the
+    // array and returns it
+    imagePath = args.shift();
+ 
+    // last argument is the callback function.
+    // pop() removes the last item in the array
+    // and returns it
+    callback = args.pop();
+ 
+    // if args still holds items it's the params
+    // add params to the bin
+    if (args.length > 0){
+      bin = bin +' '+ args.shift()+' ';
+    }  
   fs.exists(imagePath, function(exists1) {
     if (exists1) {
       callback({error: 'File exists!'})
