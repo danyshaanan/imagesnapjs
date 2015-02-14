@@ -36,7 +36,7 @@ function capture(imagePath, options, callback) {
           callback({error: 'Containing directory does not exists!'})
         } else {
           var command = parseCommand(options, imagePath)
-          console.log(command)
+          // console.log(command)
           exec(command, function() { // (err, stdout, stderr)
             fs.exists(imagePath, function(exists3) {
               if (!exists3) {
