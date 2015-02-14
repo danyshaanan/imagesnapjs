@@ -1,15 +1,27 @@
 {
   "name": "imagesnapjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An npm/nodejs wrapper for imagesnap",
-  "keywords": ["imagesnap", "webcam", "image", "photo", "iSight", "capture", "imagesnapjs", "darwin", "osx"],
+  "keywords": [
+    "imagesnap",
+    "webcam",
+    "image",
+    "photo",
+    "iSight",
+    "capture",
+    "imagesnapjs",
+    "darwin",
+    "osx"
+  ],
   "homepage": "https://github.com/danyshaanan/imagesnapjs",
   "author": {
     "name": "Dany Shaanan",
     "email": "danyshaanan@gmail.com",
     "url": "http://danyshaanan.com/"
   },
-  "os": ["darwin"],
+  "os": [
+    "darwin"
+  ],
   "contributors": [],
   "license": "MIT",
   "licenses": [
@@ -23,18 +35,17 @@
     "url": "git://github.com/danyshaanan/imagesnapjs.git"
   },
   "bugs": {
-    "url" : "https://github.com/danyshaanan/imagesnapjs",
-    "email" : "danyshaanan@gmail.com"
+    "url": "https://github.com/danyshaanan/imagesnapjs",
+    "email": "danyshaanan@gmail.com"
   },
   "main": "./imagesnapjs.js",
   "scripts": {
     "test": "grunt"
   },
   "bin": {
-      "imagesnap" : "./bin/imagesnap"
+    "imagesnap": "./bin/imagesnap"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-bump": "0.0.16",
