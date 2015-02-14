@@ -21,22 +21,21 @@ $ npm install -g imagesnapjs
 see [the original documentation](https://github.com/rharder/imagesnap) or just type `imagesnap -h`.
 
 * * *
-###As an npm dependency
+###As an npm module
 #####Installation
 ```
-$ npm install imagesnapjs
+$ npm install --save imagesnapjs
 ```
-Or require it from your `package.json`
 #####Usage
 ```
 var imagesnapjs = require('imagesnapjs');
 
-imagesnapjs.capture('/Users/dany/image.jpg', function(err) {
+imagesnapjs.capture('/Users/dany/image.jpg', { cliflags: '-w 2'}, function(err) {
   console.log(err ? err : 'Success!');
 });
 ```
-
-(To be further developed).
+The second options parameter is optional, and can include a
+`cliflags` value of additional command line flags to be passed to the imagesnap command execution.
 
 * * *
 ### Notes
