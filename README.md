@@ -20,7 +20,7 @@ and second, an npm dependency for capturing webcam shots from nodejs application
 $ npm install -g imagesnapjs
 ```
 
-#####Usage
+##### Usage
 
 see [the original documentation](https://github.com/rharder/imagesnap) or just type `imagesnap -h`.
 
