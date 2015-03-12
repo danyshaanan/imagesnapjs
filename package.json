@@ -1,6 +1,6 @@
 {
   "name": "imagesnapjs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An npm/nodejs wrapper for imagesnap",
   "keywords": [
     "imagesnap",
