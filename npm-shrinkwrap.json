@@ -1,6 +1,5 @@
 {
   "name": "imagesnapjs",
   "version": "0.0.7",
-  "from": "imagesnapjs@",
-  "resolved": "https://registry.npmjs.org/imagesnapjs/-/imagesnapjs-0.0.3.tgz"
+  "dependencies": {}
 }
