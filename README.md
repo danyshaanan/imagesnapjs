@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/danyshaanan/imagesnapjs.png)](https://travis-ci.org/danyshaanan/imagesnapjs)
 [![NPM Version](https://img.shields.io/npm/v/imagesnapjs.svg?style=flat)](https://npmjs.org/package/imagesnapjs)
 [![License](http://img.shields.io/npm/l/imagesnapjs.svg?style=flat)](LICENSE)
+[![Dependency Status](https://david-dm.org/danyshaanan/imagesnapjs.svg)](https://david-dm.org/danyshaanan/imagesnapjs)
+[![devDependency Status](https://david-dm.org/danyshaanan/imagesnapjs/dev-status.svg)](https://david-dm.org/danyshaanan/imagesnapjs#info=devDependencies)
 
 ## An npm/nodejs wrapper for imagesnap
 
